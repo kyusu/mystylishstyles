@@ -1,0 +1,23 @@
+.ghx-swimlane.ghx-first .ghx-columns .ghx-column:first-child .ghx-issue .ghx-stat-fields .ghx-row.ghx-stat-2 > a.ghx-key:first-child::after {
+    content: " ";
+    background-color: #ffe200;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: repeating-linear-gradient(45deg, #ffe200, #ffe200 10px, #ffffff 10px, #ffffff 20px);
+}
+
+.ghx-swimlane.ghx-first .ghx-columns .ghx-column:first-child .ghx-issue section.ghx-summary::after {
+    content: attr(data-tooltip);
+    background-color: white;
+    top: 10px;
+    left: 13px;
+    right: 10px;
+    position: absolute;
+    font-size: 14px;
+    z-index: 7;
+    line-height: 20px;
+}
