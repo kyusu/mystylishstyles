@@ -12,7 +12,7 @@
 
 .ghx-swimlane.ghx-first .ghx-columns .ghx-column:first-child .ghx-issue section.ghx-summary::after {
     content: attr(data-tooltip);
-    background-color: white;
+    background-color: rgba(255,255,255,0.75);
     top: 10px;
     left: 13px;
     right: 10px;
